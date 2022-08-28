@@ -1,5 +1,6 @@
 <script lang="ts">
-  import Greet from './lib/Greet.svelte'
+  import DiscSelection from "./lib/DiscSelection.svelte";
+  import Greet from "./lib/Greet.svelte";
 </script>
 
 <main class="container">
@@ -18,14 +19,17 @@
   </div>
 
   <p>
-    Click on the Tauri, Vite, and Svelte logos to learn more about each framework.
+    Click on the Tauri, Vite, and Svelte logos to learn more about each
+    framework.
   </p>
 
   <div class="row">
     <Greet />
   </div>
 
-
+  <div class="row">
+    <DiscSelection />
+  </div>
 </main>
 
 <style>
